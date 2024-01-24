@@ -1,0 +1,134 @@
+.todo-list {
+  text-align: center;
+  border: 1px solid#282c34;
+  margin: 100px 250px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #ffffff3c;
+}
+.App{
+  background-image: url('./components/image/bacground.jpg');
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #4caf50;
+}
+.todo-item:hover {
+  border: 1px solid #fff;
+  background-color: #282c34;
+}
+.todo-item p{
+  width: 300px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #1bd90a;
+}
+
+.todo-item input{
+  width: 20px;
+  height: 30px;
+}
+.todo-list input{
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 30px;
+}
+.todo-list .addtask{
+  width: 350px;
+
+}
+.todo-list input::placeholder {
+  color: #aaa;
+}
+
+.todo-list .btn{
+  padding: 10px 15px;
+  font-size: 16px;
+  width: 100px;
+  background-color: #4caf50; /* Green background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.todo-list .btn:hover  {
+  background-color: #45a049;
+}
+
+.todo-list button{
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #b5310c; /* Green background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 60%;
+}
+.todo-list button:hover  {
+  background-color: #cf1d14;
+}
+.header{
+  text-align: center;
+
+}
+.img{
+  width: 200px;
+  height: 250px;
+  border: 1px solid#282c34;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px #fff;
+  
+}
+.img:hover  {
+    box-shadow: 5px 5px #45a049;
+
+}
+.socail-media .FontAwesomeIcon{
+    margin: 20px;
+    border: 1px solid #45a049;
+    padding: 15px;
+    border-radius: 50%;
+}
+.socail-media .FontAwesomeIcon:hover{
+  border: 1px solid #45a049;
+  background-color: #fff;
+
+}
+.header h3,.header h4{
+  background-color: #45a049;
+  margin: 5px 650px;
+  border-radius: 10px;
+}
+.header h4{
+  margin: 5px 680px;
+
+}
+.header h3:hover,.header h4:hover{
+  background-color: #f3f4f3;
+  margin: 5px 650px;
+  border-radius: 10px;
+}
+.todo-list h1{
+  color: #45a049;
+  border-bottom: 2PX solid #fff;
+  margin: 20px 420px;
+}
+.todo-list h1:hover{
+  color: #fff;
+  border-bottom: 2PX solid #45a049;
+
+
+}
